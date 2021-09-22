@@ -1,4 +1,4 @@
-"Криптовалюта"
+"Digital currency"
 
 first we should take information from coingecko
 
