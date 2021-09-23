@@ -1,21 +1,33 @@
-"Digital currency"
+# python_ass1
+## Title
 
-first we should take information from coingecko
+## Installation
 
+PyPI
 
-import Api at pycoingecko
+```bash
+pip install pycoingecko
+```
+or from source
 
-
-giving the name to API = cg
-
-
-cg.get_coins_markets(vs_currency='usd') take info about price, volume
-
-
-save all info in massive == report = cg.get_coins_markets(vs_currency='usd')
-
-
-input the number for top range
-
-
-output name and market cap
+```bash
+git clone https://github.com/man-c/pycoingecko.git
+cd pycoingecko
+python3 setup.py install
+```
+## Usage
+```bash
+from pycoingecko import CoinGeckoAPI
+cg = CoinGeckoAPI()
+```
+## Examples 
+```bash
+Enter: 5
+1  -  Bitcoin 831169937158
+2  -  Ethereum 367531724795
+3  -  Cardano 71901883504
+4  -  Tether 69706897793
+5  -  Binance Coin 58409856392
+```
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
